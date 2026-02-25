@@ -58,28 +58,20 @@ nav {
   gap: 0.5rem;
 }
 
-/* Mascot image cropped from shirt photo — rectangular to show full logo + lettering */
+/* Clean transparent logo */
 .nav-mascot {
-  width: 88px;
   height: 42px;
-  border-radius: 6px;
-  border: 2px solid var(--gold);
+  width: auto;
   flex-shrink: 0;
-  background-image: url('mascot-shirt.jpg');
-  background-size: 162px auto;
-  background-position: -36px -20px;
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.4));
 }
 
 .hero-mascot {
-  width: 210px;
-  height: 110px;
-  border-radius: 10px;
-  border: 3px solid var(--gold);
+  display: block;
+  height: 170px;
+  width: auto;
   margin: 0 auto 1.5rem;
-  background-image: url('mascot-shirt.jpg');
-  background-size: 388px auto;
-  background-position: -84px -48px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.35);
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.5));
 }
 
 .nav-logo span { color: var(--gold-light); }
