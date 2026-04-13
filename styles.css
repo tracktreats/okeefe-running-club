@@ -246,8 +246,7 @@ h2 {
 }
 
 .info-card .icon {
-  font-size: 1.8rem;
-  margin-bottom: 0.6rem;
+  display: none;
 }
 
 .info-card h3 {
@@ -365,8 +364,9 @@ h2 {
   margin-top: 0.35rem;
 }
 
-.badge-bus    { background: #dce8f8; color: #1a2a6c; }
-.badge-parent { background: #fdebd0; color: #7a3b00; }
+.badge-bus      { background: #dce8f8; color: #1a2a6c; }
+.badge-parent   { background: #fdebd0; color: #7a3b00; }
+.badge-optional { background: #e8f5e9; color: #1b5e20; }
 
 /* ── GALLERY ───────────────────────────────────────────────── */
 .gallery-grid {
