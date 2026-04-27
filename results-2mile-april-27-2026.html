@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2-Mile Time Trial Results · April 27, 2026 · O'Keeffe Running Club</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .results-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1.5rem;
+      background: var(--surface);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    .results-table thead tr {
+      background: var(--green-dark);
+      color: #fff;
+    }
+    .results-table th {
+      padding: 0.75rem 1.25rem;
+      text-align: left;
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+    .results-table th.col-rank { width: 56px; text-align: center; }
+    .results-table th.col-time { width: 100px; text-align: right; }
+    .results-table td {
+      padding: 0.65rem 1.25rem;
+      font-size: 0.97rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .results-table td.col-rank {
+      text-align: center;
+      font-weight: 700;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+    .results-table td.col-time {
+      text-align: right;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+      color: var(--green-dark);
+    }
+    .results-table tbody tr:nth-child(even) { background: var(--bg); }
+    .results-table tbody tr:hover { background: var(--green-light); }
+    .results-table tbody tr:last-child td { border-bottom: none; }
+
+    .medal-1 { color: #b8860b; }
+    .medal-2 { color: #777; }
+    .medal-3 { color: #a0522d; }
+
+    .note-box {
+      background: #fef3e2;
+      border: 1px solid #f5cc5e;
+      border-left: 4px solid var(--gold);
+      border-radius: var(--radius);
+      padding: 0.9rem 1.25rem;
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+    }
+    .note-box strong { color: var(--text); }
+
+    .download-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--green-dark);
+      color: #fff;
+      text-decoration: none;
+      padding: 0.65rem 1.25rem;
+      border-radius: var(--radius);
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-top: 1.5rem;
+      transition: background 0.2s;
+    }
+    .download-link:hover { background: var(--green); }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: var(--green);
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+    .back-link:hover { color: var(--green-dark); }
+
+    #results-page { padding: 3rem 1.25rem 4rem; }
+  </style>
+</head>
+<body>
+
+<!-- ── NAVIGATION ─────────────────────────────────────────── -->
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">
+      <img src="logo.png" class="nav-mascot" alt="O'Keeffe Tigers" />
+      O'Keeffe <span>Running Club</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#join">Join</a></li>
+      <li><a href="index.html#meets">Meets</a></li>
+      <li><a href="index.html#gallery">Photos</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ── RESULTS ─────────────────────────────────────────────── -->
+<section id="results-page">
+  <div class="container">
+
+    <a class="back-link" href="index.html">← Back to main site</a>
+
+    <div class="section-label">Time Trial · April 27, 2026</div>
+    <h2>2-Mile Results</h2>
+    <p class="lead">O'Keeffe Track — adjusted finish times</p>
+
+    <div class="note-box">
+      <strong>Grade adjustments applied:</strong> 6th grade −1:00 &nbsp;·&nbsp; 7th grade −0:30 &nbsp;·&nbsp; 8th grade unchanged
+    </div>
+
+    <table class="results-table">
+      <thead>
+        <tr>
+          <th class="col-rank">#</th>
+          <th>Athlete</th>
+          <th class="col-time">Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="col-rank medal-1">1</td><td>Charles Loritz</td><td class="col-time">12:40.9</td></tr>
+        <tr><td class="col-rank medal-2">2</td><td>Everett Wyatt</td><td class="col-time">12:45.0</td></tr>
+        <tr><td class="col-rank medal-3">3</td><td>Jesse O'Brien</td><td class="col-time">13:18.5</td></tr>
+        <tr><td class="col-rank">4</td><td>Levi Strabala</td><td class="col-time">14:28.5</td></tr>
+        <tr><td class="col-rank">5</td><td>Hana Curtin</td><td class="col-time">15:12.5</td></tr>
+        <tr><td class="col-rank">6</td><td>Warren Stuehrenberg</td><td class="col-time">15:20.5</td></tr>
+        <tr><td class="col-rank">7</td><td>Pearce Roberts</td><td class="col-time">15:25.7</td></tr>
+        <tr><td class="col-rank">8</td><td>Albert Scanlon Pougnier</td><td class="col-time">15:30.9</td></tr>
+        <tr><td class="col-rank">9</td><td>Laszlo Wilkes</td><td class="col-time">15:39.6</td></tr>
+        <tr><td class="col-rank">10</td><td>Hank Luecke</td><td class="col-time">15:41.4</td></tr>
+        <tr><td class="col-rank">11</td><td>Willa Becker</td><td class="col-time">15:42.8</td></tr>
+        <tr><td class="col-rank">12</td><td>Ezra Tipson</td><td class="col-time">15:53.9</td></tr>
+        <tr><td class="col-rank">13</td><td>Rico (Mauricio) Guidry</td><td class="col-time">16:21.6</td></tr>
+        <tr><td class="col-rank">14</td><td>Tessa Zoellers</td><td class="col-time">16:26.0</td></tr>
+        <tr><td class="col-rank">15</td><td>Indigo J Rosenkranz</td><td class="col-time">16:53.3</td></tr>
+        <tr><td class="col-rank">16</td><td>Hazel Calkins</td><td class="col-time">17:22.2</td></tr>
+        <tr><td class="col-rank">17</td><td>Hannah Lovejoy-Paulson</td><td class="col-time">17:33.7</td></tr>
+        <tr><td class="col-rank">18</td><td>Daniel Defour</td><td class="col-time">17:41.0</td></tr>
+        <tr><td class="col-rank">19</td><td>Winnie Ryanjoy</td><td class="col-time">17:47.4</td></tr>
+        <tr><td class="col-rank">20</td><td>Kai Stringer</td><td class="col-time">17:52.0</td></tr>
+        <tr><td class="col-rank">21</td><td>Arthur Seys</td><td class="col-time">18:15.5</td></tr>
+        <tr><td class="col-rank">22</td><td>Celeste Tryon</td><td class="col-time">18:18.9</td></tr>
+        <tr><td class="col-rank">23</td><td>Camelia Brottem-Popovici</td><td class="col-time">18:20.3</td></tr>
+        <tr><td class="col-rank">24</td><td>Ruth Kosmerl</td><td class="col-time">18:22.8</td></tr>
+        <tr><td class="col-rank">25</td><td>Nawaz Mohamed</td><td class="col-time">18:42.5</td></tr>
+        <tr><td class="col-rank">26</td><td>Petra Hilgendorf</td><td class="col-time">18:48.6</td></tr>
+        <tr><td class="col-rank">27</td><td>Lucy Squire</td><td class="col-time">18:53.9</td></tr>
+        <tr><td class="col-rank">28</td><td>Elwood Eubank</td><td class="col-time">19:12.5</td></tr>
+        <tr><td class="col-rank">29</td><td>Micah Wood</td><td class="col-time">19:38.4</td></tr>
+        <tr><td class="col-rank">30</td><td>Coco Lindl</td><td class="col-time">19:51.0</td></tr>
+        <tr><td class="col-rank">31</td><td>Adeleigh L Anderson</td><td class="col-time">21:10.4</td></tr>
+        <tr><td class="col-rank">32</td><td>Emmy Hanson</td><td class="col-time">22:42.3</td></tr>
+        <tr><td class="col-rank">33</td><td>Daphne Grevstad</td><td class="col-time">22:50.4</td></tr>
+        <tr><td class="col-rank">34</td><td>Murad Mohamed</td><td class="col-time">23:02.9</td></tr>
+        <tr><td class="col-rank">35</td><td>Muaz</td><td class="col-time">23:11.1</td></tr>
+        <tr><td class="col-rank">36</td><td>Natan Lou Zemel-Hayim</td><td class="col-time">23:15.5</td></tr>
+        <tr><td class="col-rank">37</td><td>Viggo Weborg</td><td class="col-time">24:59.5</td></tr>
+      </tbody>
+    </table>
+
+    <a class="download-link" href="okeeffe_2_mile_results_april_27_2026.pdf" download>
+      ↓ Download PDF
+    </a>
+
+  </div>
+</section>
+
+<!-- ── FOOTER ──────────────────────────────────────────────── -->
+<footer>
+  <p><strong>O'Keeffe Middle School Running Club</strong></p>
+  <p style="margin-top:0.4rem;">Madison, WI &nbsp;·&nbsp; Spring 2026 &nbsp;·&nbsp; Coaches: John Curtin &amp; Jonny Hunter</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
